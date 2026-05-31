@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Sara ❤️</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/a.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- Canvas corazones -->
+    <canvas id="heartsCanvas"></canvas>
+
+    <!-- ── REPRODUCTOR FIJO ── -->
+    <div id="musicPlayer">
+        <img id="playerImg" src="" alt="cover">
+        <div class="player-info">
+            <span id="playerTitle">—</span>
+            <span id="playerArtist"></span>
+        </div>
+        <div class="player-controls">
+            <button id="playerPlayBtn" onclick="player.togglePause()">⏸</button>
+            <button id="playerStopBtn" onclick="player.stopAll()" title="Detener">■</button>
+        </div>
+        <div class="player-progress-wrap">
+            <div id="progressBar">
+                <div id="progressFill"></div>
+            </div>
+            <span id="playerTime">0:00 / 0:00</span>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="stars"></div>
+        <h1>Hola ❤️</h1>
+        <p>
+            Hice esto para alguien
+            que se volvió demasiado importante para mí.
+            <br>
+            Esta persona llego sorpresivamente a mi vida
+            y le dio un brillo especial.
+        </p>
+        <button id="startBtn">Entrar</button>
+    </section>
+
+    <section class="cards-section">
+        <h2>Cosas que me gustan de ti</h2>
+        <div class="cards-container">
+            <div class="card" data-aos="fade-up">
+                <h3>Tus buenos dias</h3>
+                <p>Depertarme y ver tu respectivo mensaje de buenos dias, no te imaginas como me alegra el dias.</p>
+            </div>
+            <div class="card" data-aos="fade-up">
+                <h3>Tu musica</h3>
+                <p>Me has enseñado muchas canciones que ahora entran entre mis favoritas, muchas no puedo evitar escucharlas sin pensar en ti.</p>
+            </div>
+            <div class="card" data-aos="fade-up">
+                <h3>Tu forma de ser</h3>
+                <p>Eres amable, tierna, directa y tienes las cosas muy claras, no te he visto dudar y eso me encanta, me inspiras mucho.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="letter-section">
+        <h2>Hay algo que quiero decirte...</h2>
+        <span id="typed-text"></span>
+    </section>
+
+    <section class="music-section">
+        <h2>Las canciones que nos Unen.</h2>
+        <div class="songs-container"></div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+</body>
+</html>
