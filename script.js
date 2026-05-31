@@ -273,7 +273,7 @@ const songs = [
         message: "Esta cancion creo yo que lo inicio todo, lo recuerdo, yo la monte a mi estado, tu reaccionaste a ella y ahi empezamos a hablar de musica, la musica para mi es lo que mas nos une y con este tema empezo.",
     },
     {
-        title: "Termonuclar",
+        title: "Termonuclear",
         artist: "Perfecto Miserable",
         image: "img/termonuclear.jpg",
         file: "Termonuclar.mp3",
