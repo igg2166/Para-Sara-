@@ -449,32 +449,33 @@ html{
     }
 
     .songs-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 12px;
-        padding: 0 8px;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 12px !important;
+        padding: 0 8px !important;
+        flex-wrap: unset !important;
     }
 
     .song-card {
-        width: 100%;
-        max-width: 100%;
+        width: 100% !important;
+        max-width: 100% !important;
     }
 
     .song-card img {
-        height: 150px;
+        height: 140px !important;
     }
 
     .song-info {
-        padding: 12px;
+        padding: 10px 12px !important;
     }
 
     .song-info h3 {
-        font-size: 0.85rem;
-        margin-bottom: 4px;
+        font-size: 0.82rem !important;
+        margin-bottom: 4px !important;
     }
 
     .song-info p {
-        font-size: 0.75rem;
+        font-size: 0.72rem !important;
     }
 
     /* Reproductor más compacto */
