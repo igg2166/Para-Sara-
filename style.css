@@ -401,12 +401,12 @@ html{
         align-items: center;
         box-sizing: border-box;
     }
- 
+
     h1 {
         font-size: 2.8rem;
         margin-bottom: 10px;
     }
- 
+
     p {
         font-size: 0.95rem;
         max-width: 100%;
@@ -422,4 +422,93 @@ html{
         line-height: 1.9;
     }
 
+    /* Sección de cards */
+    .cards-section {
+        padding: 60px 16px 80px 16px;
+    }
+
+    .cards-container {
+        gap: 16px;
+        margin-top: 30px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 320px;
+        padding: 22px;
+    }
+
+    /* Sección de canciones */
+    .music-section {
+        padding: 60px 16px 120px 16px;
+    }
+
+    .music-section h2 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .songs-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        padding: 0 8px;
+    }
+
+    .song-card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .song-card img {
+        height: 150px;
+    }
+
+    .song-info {
+        padding: 12px;
+    }
+
+    .song-info h3 {
+        font-size: 0.85rem;
+        margin-bottom: 4px;
+    }
+
+    .song-info p {
+        font-size: 0.75rem;
+    }
+
+    /* Reproductor más compacto */
+    #musicPlayer {
+        width: 94vw;
+        padding: 10px 12px;
+        column-gap: 10px;
+        border-radius: 16px;
+    }
+
+    #musicPlayer.player-visible {
+        bottom: 12px;
+    }
+
+    #playerImg {
+        width: 46px;
+        height: 46px;
+    }
+
+    #playerTitle {
+        font-size: 0.85rem;
+    }
+
+    #playerArtist {
+        font-size: 0.72rem;
+    }
+
+    .player-controls button {
+        width: 34px;
+        height: 34px;
+        font-size: 0.9rem;
+    }
+
+    #playerTime {
+        font-size: 0.65rem;
+    }
 }
