@@ -386,3 +386,110 @@ html{
     color: #888;
     white-space: nowrap;
 }
+
+/* ─────────────────────────────────────────
+   📱 RESPONSIVE MÓVIL
+───────────────────────────────────────── */
+@media (max-width: 600px) {
+
+    /* Hero: compensar la barra del navegador y el reproductor */
+    .hero {
+        height: 100svh;
+        padding: 20px 20px 100px 20px;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 0.95rem;
+        max-width: 100%;
+    }
+
+    /* Carta */
+    .letter-section {
+        padding: 60px 24px 100px 24px;
+    }
+
+    #typed-text {
+        font-size: 1rem;
+        line-height: 1.9;
+    }
+
+    /* Sección de cards */
+    .cards-section {
+        padding: 60px 16px 80px 16px;
+    }
+
+    .cards-container {
+        gap: 16px;
+        margin-top: 30px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 320px;
+        padding: 22px;
+    }
+
+    /* Sección de canciones */
+    .music-section {
+        padding: 60px 16px 120px 16px;
+    }
+
+    .music-section h2 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .songs-container {
+        gap: 16px;
+    }
+
+    .song-card {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .song-card img {
+        height: 200px;
+    }
+
+    /* Reproductor más compacto */
+    #musicPlayer {
+        width: 94vw;
+        padding: 10px 12px;
+        column-gap: 10px;
+        border-radius: 16px;
+    }
+
+    #musicPlayer.player-visible {
+        bottom: 12px;
+    }
+
+    #playerImg {
+        width: 46px;
+        height: 46px;
+    }
+
+    #playerTitle {
+        font-size: 0.85rem;
+    }
+
+    #playerArtist {
+        font-size: 0.72rem;
+    }
+
+    .player-controls button {
+        width: 34px;
+        height: 34px;
+        font-size: 0.9rem;
+    }
+
+    #playerTime {
+        font-size: 0.65rem;
+    }
+}
