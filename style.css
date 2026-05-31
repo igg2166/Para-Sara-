@@ -392,18 +392,21 @@ html{
 ───────────────────────────────────────── */
 @media (max-width: 600px) {
 
-    /* Hero: compensar la barra del navegador y el reproductor */
+    /* Hero: centrado real en móvil */
     .hero {
         height: 100svh;
-        padding: 20px 20px 100px 20px;
+        min-height: 100svh;
+        padding: 0 20px;
         justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
     }
-
+ 
     h1 {
         font-size: 2.8rem;
         margin-bottom: 10px;
     }
-
+ 
     p {
         font-size: 0.95rem;
         max-width: 100%;
@@ -419,22 +422,7 @@ html{
         line-height: 1.9;
     }
 
-    /* Sección de cards */
-    .cards-section {
-        padding: 60px 16px 80px 16px;
-    }
-
-    .cards-container {
-        gap: 16px;
-        margin-top: 30px;
-    }
-
-    .card {
-        width: 100%;
-        max-width: 320px;
-        padding: 22px;
-    }
-
+   
     /* Sección de canciones */
     .music-section {
         padding: 60px 16px 120px 16px;
