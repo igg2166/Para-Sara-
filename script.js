@@ -232,7 +232,9 @@ Incluso el simple hecho de ver tu linda cara, que me digas lo mucho que te gusto
 
 No sabes cuánto deseo visitarte, besarte, abrazarte, dormir contigo, salir contigo y hablar contigo frente a frente. Estoy muy enamorado de ti. Me hechizaste; estoy completamente rendido a tus pies. La verdad, creo que estas palabras se quedan cortas para expresar todo lo que me haces sentir.
 
-Para finalizar, gracias por existir, gracias por ser mi prenovia y gracias por aceptarme tal como soy. A cambio, yo te acepto y amo tal como eres. No necesito que cambies por mí; eres perfecta así como estás.
+Para finalizar, gracias por existir, gracias por ser mi prenovia y gracias por aceptarme tal como soy. A cambio, yo te acepto y amo tal como eres. No necesito que cambies por mí; eres perfecta así como estás. 
+
+Este mensaje lo escribí hace tres semanas, pero decidí guardarlo para dártelo en una fecha especial. Feliz cumpleaños, Saris. Te amo demasiado y deseo de todo corazón que hoy sea un día tan hermoso y especial como tú. Espero que seas muy feliz y que disfrutes cada momento de este día.
 `
     ],
     typeSpeed: 40,
